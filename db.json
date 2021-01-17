@@ -3,43 +3,54 @@
     {
       "id": 1,
       "title": "kábel1",
-      "SocketId1": "ABC123",
-      "PriceTagId1": "12345",
-      "SocketId2": "ABC456",
-      "PriceTagId2": "12345",
-      "StorageId": "ABC789",
-      "PriceTagId3": "12345"
+      "socketId1": "ABC123",
+      "priceTagId1": "12345",
+      "socketId2": "ABC456",
+      "priceTagId2": "12345",
+      "storageId": "ABC789",
+      "priceTagId3": "12345"
     },
-        {
-      "id": 1,
-      "title": "kábel2",
-      "SocketId1": "ABC123",
-      "PriceTagId1": "12345",
-      "SocketId2": "ABC456",
-      "PriceTagId2": "12345",
-      "StorageId": "ABC789",
-      "PriceTagId3": "12345"
+    {
+      "id": 2,
+      "title": "kábel1",
+      "socketId1": "ABC123",
+      "priceTagId1": "12345",
+      "socketId2": "ABC456",
+      "priceTagId2": "12345",
+      "storageId": "ABC789",
+      "priceTagId3": "12345"
     },
-        {
-      "id": 1,
-      "title": "kábel3",
-      "SocketId1": "ABC123",
-      "PriceTagId1": "12345",
-      "SocketId2": "ABC456",
-      "PriceTagId2": "12345",
-      "StorageId": "ABC789",
-      "PriceTagId3": "12345"
+    {
+      "id": 3,
+      "title": "kábel1",
+      "socketId1": "ABC123",
+      "priceTagId1": "12345",
+      "socketId2": "ABC456",
+      "priceTagId2": "12345",
+      "storageId": "ABC789",
+      "priceTagId3": "12345"
     },
-        {
-      "id": 1,
-      "title": "kábel4",
-      "SocketId1": "ABC123",
-      "PriceTagId1": "12345",
-      "SocketId2": "ABC456",
-      "PriceTagId2": "12345",
-      "StorageId": "ABC789",
-      "PriceTagId3": "12345"
+    {
+      "id": 4,
+      "title": "kábel1",
+      "socketId1": "ABC123",
+      "priceTagId1": "12345",
+      "socketId2": "ABC456",
+      "priceTagId2": "12345",
+      "storageId": "ABC789",
+      "priceTagId3": "12345"
+    },
+    {
+      "id": 5,
+      "title": "kábel1",
+      "socketId1": "ABC123",
+      "priceTagId1": "12345",
+      "socketId2": "ABC456",
+      "priceTagId2": "12345",
+      "storageId": "ABC789",
+      "priceTagId3": "12345"
     }
+
   ],
   "profile": {
     "name": "typicode"
