@@ -2,12 +2,44 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "kábel1"
+      "SocketId1": "ABC123"
+      "PriceTagId1": "12345"
+      "SocketId2": "ABC456"
+      "PriceTagId2": "12345"
+      "StorageId": "ABC789"
+      "PriceTagId3": "12345"
     },
-    {
-      "id": 2,
-      "title": "hello2"
-    }
+        {
+      "id": 1,
+      "title": "kábel2"
+      "SocketId1": "ABC123"
+      "PriceTagId1": "12345"
+      "SocketId2": "ABC456"
+      "PriceTagId2": "12345"
+      "StorageId": "ABC789"
+      "PriceTagId3": "12345"
+    },
+        {
+      "id": 1,
+      "title": "kábel3"
+      "SocketId1": "ABC123"
+      "PriceTagId1": "12345"
+      "SocketId2": "ABC456"
+      "PriceTagId2": "12345"
+      "StorageId": "ABC789"
+      "PriceTagId3": "12345"
+    },
+        {
+      "id": 1,
+      "title": "kábel4"
+      "SocketId1": "ABC123"
+      "PriceTagId1": "12345"
+      "SocketId2": "ABC456"
+      "PriceTagId2": "12345"
+      "StorageId": "ABC789"
+      "PriceTagId3": "12345"
+    },
   ],
   "profile": {
     "name": "typicode"
