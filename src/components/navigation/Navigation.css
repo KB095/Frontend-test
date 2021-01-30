@@ -1,0 +1,16 @@
+.header {
+    min-height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 40rem;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 2rem;
+    padding: 2rem 0rem;
+    margin: auto;
+    background-color: #9C3848;
+
+    position: sticky;
+    top: 0;
+}

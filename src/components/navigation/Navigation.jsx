@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 
+import './Navigation.css'
+
 const Navigation = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -9,9 +11,9 @@ const Navigation = () => {
 
     return (
         <React.Fragment>
-            <header>
+            <header className='header'>
                 <span onClick={handleMenuOnClick}>Menu</span>
-                <img src='/images/logo192.png' />
+                <img src='/images/logo192.png' alt=""/>
             </header>
             {isOpen &&
                 <nav>

@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import './App.css';
-//import template from './Template4.2.PNG';
-//import putrequest from './components/putrequest';
 import axios from 'axios';
-//const express   = require('express');
+
+
 class App extends Component {
   constructor(props) {
     super(props);
