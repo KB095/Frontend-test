@@ -7,10 +7,50 @@
     justify-content: space-between;
 
     font-size: 2rem;
-    padding: 2rem 0rem;
+    padding: 0.5rem 0.5rem;
     margin: auto;
     background-color: #9C3848;
 
     position: sticky;
     top: 0;
+}
+
+.menuIcon-span {
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 2rem 1rem;
+    background-color: inherit;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    display: flex;
+}
+.menuIcon-span:hover{
+    cursor: pointer;
+    background-color: #56615D;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+}
+.menuIcon {
+    background-color: inherit;
+    height: 110%;    
+    transition: transform 0.5s ease-in-out;
+}
+.menuIcon-open {
+    
+    transform: rotate(0deg);
+}
+.menuIcon-open {
+    background-color: inherit;
+    transform: rotate(270deg);
+}
+
+.logo {
+    max-height: 5vh;
+}
+
+.navigation {
+    position: abosulte;
+    width: 15vw;
+    background-color: #56615D;
 }

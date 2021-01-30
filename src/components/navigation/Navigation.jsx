@@ -12,11 +12,18 @@ const Navigation = () => {
     return (
         <React.Fragment>
             <header className='header'>
-                <span onClick={handleMenuOnClick}>Menu</span>
-                <img src='/images/logo192.png' alt=""/>
+                <span className='menuIcon-span' onClick={handleMenuOnClick}>
+                    <img
+                        className={isOpen ? 'menuIcon menuIcon-open' : 'menuIcon  menuIcon-close'}
+                        src="/images/menu.svg"
+                        alt=""
+                    />
+                </span>
+                
+                <img className='logo' src='/images/logo.png' alt=""/>
             </header>
             {isOpen &&
-                <nav>
+                <nav className='navigation'>
                     <ul>
                         <li>Hello</li>
                         <li>Hello</li>
