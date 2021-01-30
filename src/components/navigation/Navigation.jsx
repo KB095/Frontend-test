@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
 
 import './Navigation.css'
 
@@ -22,16 +23,16 @@ const Navigation = () => {
                 
                 <img className='logo' src='/images/logo.png' alt=""/>
             </header>
-            {isOpen &&
-                <nav className='navigation'>
-                    <ul>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                        <li>Hello</li>
-                    </ul>
-                </nav>
-            }
+            <nav className={isOpen ? 'navigation navigation-open' : 'navigation'}>
+                <h1>Menü</h1>
+                <ul>
+                    <li><Link className='links' to='/'>Home</Link></li>
+                    <li><Link className='links' to='/price-tag'>PriceTag</Link></li>
+                    <li><Link className='links' to='/'>Home</Link></li>
+                    <li><Link className='links' to='/'>Home</Link></li>
+                    <li><Link className='links' to='/'>Home</Link></li>
+                </ul>
+            </nav>
         </React.Fragment>
     )
 }

@@ -7,7 +7,7 @@ import Navigation from './components/navigation/Navigation';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navigation></Navigation>
+
     <App />
   </React.StrictMode>,
   document.getElementById('root')
