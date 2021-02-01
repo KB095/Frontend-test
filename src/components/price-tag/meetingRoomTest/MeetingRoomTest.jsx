@@ -17,18 +17,18 @@ const MeetingRoomTest = () => {
             method: 'put',
             url: 'http://192.168.1.101:3001/price-tag/modifyProduct2/',
             data: {
-              "ID": "123",
-              "barcode": "123",
-              "number": "123",
-             "placeHolder28": this.state.time,	
-             "placeHolder29": this.state.time !=='' ? "Start Time:" : "",
-             "placeHolder30": this.state.participant1 !=='' ? "Participants:" : "",		
-             "placeHolder32": this.state.participant2,	
-              "placeHolder35": this.state.participant1,
-              "placeHolder36": this.state.guestname,
-             "placeHolder37": this.state.guestname !=='' ? "Welcome:" : "",
-             "placeHolder38": "Meeting Room",
-             "storeUuid": "65"
+                "ID": "123",
+                "barcode": "123",
+                "number": "123",
+                "placeHolder28": time,	
+                "placeHolder29": time !=='' ? "Start Time:" : "",
+                "placeHolder30": participant1 !=='' ? "Participants:" : "",		
+                "placeHolder32": participant2,	
+                "placeHolder35": participant1,
+                "placeHolder36": guestname,
+                "placeHolder37": guestname !=='' ? "Welcome:" : "",
+                "placeHolder38": "Meeting Room",
+                "storeUuid": "65"
             } 
         })
         .then(response => {
@@ -63,7 +63,7 @@ const MeetingRoomTest = () => {
     return(
             <form  onSubmit = {handleSubmit}>
                 <div className='mainForm'>
-                    <img src="/images/acsg_COLOR.png" alt=""/>
+                    <img src="/images/logo2.png" alt=""/>
                     <h1>Meeting Room</h1>
                     <h2>Welcome:</h2>
                     <div className='mittomen'>

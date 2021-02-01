@@ -48,7 +48,7 @@ form{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px;
   }
-  .grid .grid-flex{
+  .grid .grid_flex{
       font-size: 3rem;
       display: flex;
       flex-direction: column;
