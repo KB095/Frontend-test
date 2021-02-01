@@ -7,6 +7,7 @@ import Navigation from './components/navigation/Navigation'
 
 import Landing from './components/landing/Landing'
 import PriceTag from './components/price-tag/PriceTag'
+import MeetingRoomTest from './components/price-tag/meetingRoomTest/MeetingRoomTest';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
         <h1>Hello</h1>
         <Route path='/' exact component={Landing} />
         <Route path='/price-tag' exact component={PriceTag} />
+  
       </div>
     </Router>
     
