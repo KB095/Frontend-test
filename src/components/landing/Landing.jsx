@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Landing = () => {
+    const [windowSize, setWindowSize] = useState(null)
+
     return(
-        <h1>This is the Home Page!</h1>
+        <h1>Hello</h1>
     )
 }
 

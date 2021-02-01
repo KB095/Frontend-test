@@ -17,7 +17,6 @@
 }
 
 .menuIcon-span {
-    height: 5vh;
     border: none;
     border-radius: 10px;
     margin: 0;
@@ -27,14 +26,14 @@
     align-items: center;
     display: flex;
     user-select: none;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
 }
 .menuIcon-span:hover{
     cursor: pointer;
     background-color: rgba(86, 97, 93, 0.5);
-    box-shadow: 1px 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 1px 5px 10px rgba(255,255,255,0.1);
 }
 .menuIcon {
-    height: 110%;    
     transition: transform 0.5s ease-in-out;
 }
 .menuIcon-open {
