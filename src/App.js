@@ -15,9 +15,10 @@ const App = () => {
     <Router>
       <Navigation/>
       <div className='mainContainer'>
-        <h1>Hello</h1>
         <Route path='/' exact component={Landing} />
         <Route path='/price-tag' exact component={PriceTag} />
+        <Route path='/price-tag/meetingRoom' exact component={MeetingRoomTest} />
+
   
       </div>
     </Router>

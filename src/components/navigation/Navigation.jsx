@@ -28,6 +28,7 @@ const Navigation = () => {
                 <ul>
                     <li><Link className='links' to='/'>Home</Link></li>
                     <li><Link className='links' to='/price-tag'>PriceTag</Link></li>
+                    <li><Link className='links' to='/price-tag/meetingRoom'>MeetingRoom</Link></li>
                     <li><Link className='links' to='/'>Home</Link></li>
                     <li><Link className='links' to='/'>Home</Link></li>
                     <li><Link className='links' to='/'>Home</Link></li>
